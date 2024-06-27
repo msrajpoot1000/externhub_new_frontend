@@ -1,0 +1,256 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .signUpTop {
+     position: relative;
+
+ }
+
+ .processingSectionPurchase {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 1
+ }
+
+ .SignUpHead {
+     /* border: 1px solid red; */
+     padding: 1rem 0rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url("./back12.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .SignUp {
+     background-color: white;
+     width: 600px;
+     border: none;
+     padding: 1rem;
+     margin: 0.5rem;
+     border-radius: 5px;
+     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+ }
+
+
+
+ .crossBtnHead {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     /* border: 1px solid red; */
+     margin: 0px;
+ }
+
+ .SignUpHead .sec1 {
+     width: 100%;
+     /* border: 1px solid green; */
+     text-align: center;
+ }
+
+
+
+ .crossBtn .sec1 h3 {}
+
+ .crossBtn {
+     display: inline;
+     background-color: #1b2a37;
+ }
+
+ .crossBtnHead .crossBtn .crossBtnFa {}
+
+
+ .SignUpHead .item-container-signup form {
+     /* display: flex;
+     flex-direction: row; */
+     display: grid;
+     grid-template-columns: 1fr 3fr;
+
+
+ }
+
+
+ .SignUpHead .item-container-signup form .item {
+     display: flex;
+     flex-direction: column;
+     margin: 1rem 0px;
+     width: 100%;
+ }
+
+
+ .SignUpHead .item-container-signup form .item label {
+     width: 100%;
+     display: inline;
+     font-size: 1rem;
+     margin: 0.35rem 0rem;
+     padding: 0.3rem;
+     padding-right: 0.5rem;
+     flex-shrink: 0;
+     /* border: 1px solid red; */
+ }
+
+ .inputInsti {
+     margin: 0.95rem 0rem !important;
+ }
+
+ .SignUpHead .item-container-signup form .item input, select {
+     width: 100%;
+     margin: 0.3rem 0rem;
+     border: 2px solid rgb(135, 134, 134);
+     padding: 0.3rem 0.5rem;
+     border-radius: 20px;
+     outline: none;
+     font-weight: bold;
+ }
+
+ .SignUpHead .item-container-signup form .item input::placeholder, select::placeholder {
+     color: #999;
+ }
+
+
+
+
+ .lBtnHead {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .loginBtn {
+     /* border: 1px solid red; */
+     border: none;
+     padding: 0.1rem 0.5rem;
+     border-radius: 20px;
+     background-color: #2e95f7;
+     color: white;
+     font-weight: bold;
+     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+     width: 100%;
+     margin: 0px 2rem;
+ }
+
+ .loginBtn :hover {
+     /* background-color: green; */
+ }
+
+ .signUPcanFor {
+     display: flex;
+     justify-content: flex-end;
+     background-color: white;
+ }
+
+ .signUPcanFor button {
+     background-color: white;
+     border: none;
+ }
+
+ .signUPcanFor .cancel {
+     text-decoration: underline;
+     color: #2e95f7;
+ }
+
+
+
+
+ .signUpBtn {
+     border: none;
+     background-color: #04AA6D;
+     border-radius: 10px;
+     color: white;
+     padding: 0.2rem 0.8rem;
+     width: 100%;
+     font-weight: bold;
+     margin: 0.5rem 0rem;
+ }
+
+ .sign-in-signup {
+     color: #2e95f7;
+     text-decoration: underline;
+ }
+
+
+ .submitBtnHead {}
+
+
+
+ /* DatePickerStyles.css */
+
+ .custom-datepicker {
+     font-family: Arial, sans-serif;
+
+     border: 1px solid #ccc;
+
+     border-radius: 4px;
+     /* Add border radius for rounded corners */
+     padding: 8px;
+
+ }
+
+ .react-datepicker__header {
+     background-color: #007bff;
+     /* Change the header background color */
+ }
+
+ .react-datepicker__day-names {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .react-datepicker__day-name,
+ .react-datepicker__day {
+     width: 30px;
+     /* Adjust day width */
+     height: 30px;
+     /* Adjust day height */
+     line-height: 30px;
+     /* Center day text vertically */
+     text-align: center;
+     /* Center day text horizontally */
+     border-radius: 50%;
+     /* Make day circle */
+     cursor: pointer;
+     /* Change cursor to pointer */
+ }
+
+ .react-datepicker__day--selected {
+     background-color: #007bff;
+     /* Change selected day background color */
+     color: #fff;
+     /* Change selected day text color */
+ }
+
+
+ .contactBtn {
+     font-weight: bold;
+ }
+
+
+
+ .message {
+     color: red;
+     text-align: center;
+     font-weight: bold;
+ }
+
+
+ .modalCloseSuccesHead {
+     display: flex;
+     justify-content: flex-end;
+     /* border: 1px solid red; */
+ }
+
+ .modalCloseSuccesHead .fa-icon {
+     font-size: 1.5rem;
+     cursor: pointer;
+
+ }
+
+ .modalCloseSuccesHead h4 {
+     color: green !important;
+     font-weight: bold;
+ }

@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.coursesHead {
+    /* border: 1px solid red; */
+    padding: 2rem 0rem;
+    /* background-color: whitesmoke; */
+    background-image: url("./imgSection/back-img2.jpg");
+    /* background-repeat: no-repeat; */
+    object-fit: cover;
+}
+
+.coursesTitle {
+    text-align: center;
+    color: #2e95f7;
+    font-weight: bold;
+    padding: 1rem 0px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.coursesHead .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    /* background-color: #daedfc; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    transition: transform 0.3s ease;
+
+}
+
+.coursesHead .card:hover {
+    transform: scale(1.05);
+}
+
+.coursesHead .card img {
+    height: 9rem;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.coursesHead .card .courseName {
+    text-align: center;
+    padding: 0.5rem 0rem;
+    color: #00BF63;
+}
+
+.coursesHead .card button {
+    bottom: 0px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: auto;
+    padding: 0rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #00BF63;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.coursesHead .card button:hover {
+    color: white;
+    background-color: black;
+}
+
+[data-aos] {
+    opacity: 1;
+    transform: none;
+}

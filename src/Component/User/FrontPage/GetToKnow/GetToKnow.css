@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.getToKnowHead {
+
+    z-index: 1;
+    padding: 3rem 0rem;
+    /* background-image: url("./logo_ExternHu3.png"); */
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.getToKnowHead .getToTitle {
+    padding: 1rem 0rem;
+}
+
+.getToKnowHead .getToContent {
+    /* font-weight: bold; */
+    /* color: white; */
+}
+
+.getBackLogo {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* filter: grayscale(40%);
+    */
+    opacity: 0.3;
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.privacyTitle {
+    text-align: center;
+}
+
+.privacyHead {
+    font-family: 'Poppins', sans-serif;
+    /* background-image:
+        linear-gradient(to top right, #acc7e0, #fff0e0); */
+}

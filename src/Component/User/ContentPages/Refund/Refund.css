@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.RefundHead {
+    background-color: whitesmoke;
+}.refundTitle {
+    text-align: center;
+    padding: 0.5rem 0rem;
+}

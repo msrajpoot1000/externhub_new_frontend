@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ContactUsHead {
+    margin: 0.5rem;
+    background-color: white;
+    position: relative;
+}
+
+.processingHeadContactUsAdmin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* 
+.emptyList {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.contactUsDataHead {
+    margin: 0.5rem 0rem;
+    padding: 0.3rem;
+    /* border: 1px solid rgb(132, 130, 130); */
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+.contactUsDataHead .items {
+    /* border: 1px solid green; */
+    /* margin:0.5rem  */
+    /* padding:0.5rem; */
+}
+
+.contactUsDataHead .itemsHeading {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contactUsDataHead .itemsHeading p {
+    /* border: 1px solid red; */
+    font-weight: bold;
+}
+
+.contactUsDataHead .items .msg {
+    /* border: 1px solid rgb(162, 160, 160); */
+}
+
+.itemsButtonHead {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactUsDataHead .items button {
+    border: 1px solid blue;
+    font-size: 1rem;
+    padding: 0rem 0.3rem !important;
+    margin: 0.3rem 0.3rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    text-align: center;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+.contactUsDataHead .items .coorupt {
+    background-color: rgb(168, 54, 54);
+}
+
+
+.contactUsDataHead .items textarea {
+    border: 2px solid rgb(141, 138, 138);
+    width: 90%;
+    margin: 0.5rem;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.2rem;
+    transform: scaleY(1);
+    transition: transform 1s ease;
+
+}

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.loginClass {
+    /* border: 1px solid red; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.processingHeadLogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginClass .item-container .admin-login-title {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.loginClass .item-container {
+    /* border: 1px solid red; */
+    /* background-color: #2e95f7; */
+    background-color: rgb(198, 197, 197);
+    background-color: #2e95f7;
+    padding: 2rem;
+    border-radius: 1px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    /* width: 100%; */
+    margin: 1rem 0rem;
+}
+
+.loginClass .item-container * {
+    /* border: 1px solid red; */
+}
+
+.loginClass .item-container .items {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row
+}
+
+.loginClass .item-container .items label {
+    min-width: 200px;
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+.loginClass .item-container .items .userName, .userPass {
+    border: 1px solid green;
+    width: 100%;
+    display: inline;
+    margin: 0.5rem;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border: 2px solid white;
+    background-color: #2e95f7;
+    outline: none;
+    border-radius: 5px;
+}
+
+.loginClass .item-container .items input ::placeholder {
+    color: white !important;
+}
+
+.items input::placeholder {
+    color: white
+}
+
+@media (max-width: 600px) {
+    .loginClass .item-container .items {
+        flex-direction: column;
+    }
+}
+
+
+.loginBtnLogin {
+    /* border: 1px solid red; */
+    background-color: white;
+    color: #2e95f7 !important;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.login-btn-head {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn-head button {
+    padding: 0rem 2rem;
+    margin: 1rem 0rem;
+    padding: 0.3rem 2rem;
+    border: none;
+}

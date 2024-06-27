@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Reco {
+    /* border: 1px solid red; */
+    padding: 1rem 1rem;
+}
+
+.recoHeading {
+    text-align: center;
+}
+
+
+.RecoImg *{
+    /* border:1px solid red; */
+}
+    .RecoImg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .RecoImg img {
+        width: 16%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }

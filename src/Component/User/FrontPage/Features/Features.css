@@ -1,0 +1,49 @@
+.card1 {
+    /* border: 1px solid red; */
+    padding: 20px;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card1 .front1 {
+    /* border: 1px solid red; */
+    padding-top: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin: 0.5rem;
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.card1 img {
+    /* border: 1px solid red; */
+    height: 5rem;
+    aspect-ratio: 1/1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardTitle1 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.front1 p {
+    margin: 0px;
+    background-color: #f5f5f5;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.featureTitle {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+

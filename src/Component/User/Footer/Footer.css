@@ -1,0 +1,150 @@
+.footerHead {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #000;
+    padding: 1rem 0rem;
+}
+
+.footer {
+    background-color: #fff;
+    background-color: #f9f9f9;
+
+    /* padding: 40px 20px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* display: none; */
+}
+
+
+.footer-column {
+    flex: 1;
+    /* width: 100%; */
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+    background-color: none;
+    /* border: 1px solid red; */
+    display: block;
+}
+
+.footer-column ul li a {}
+
+
+
+
+
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .footer-column {
+        margin-bottom: 20px;
+        /* text-align: center; */
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+}
+
+.gThan {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+
+.footer-column ul li button {
+    border: none;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-column ul li :hover {
+    text-decoration: underline;
+    background-color: #f9f9f9;
+    color: #7979db;
+}
+
+.footersection2 {
+    padding: 1rem 1rem;
+
+}
+
+.footersection2 a {
+    display: block;
+}
+
+
+
+
+.socialMediaImg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.socialMediaImg a {
+    padding: 0px;
+}
+
+.sIcon {
+    color: #000;
+    font-size: 1.1rem;
+    z-index: 1;
+    aspect-ratio: 1/1;
+    margin: 0rem 1rem;
+    margin-bottom: 0px;
+}
+
+.sIcon:hover {
+    color: #7979db;
+}
+
+.footer-info {
+    padding: 1rem 1rem;
+    /* display: none; */
+}

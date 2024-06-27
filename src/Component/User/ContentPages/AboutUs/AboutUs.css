@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.boldWord {
+    font-weight: bold;
+}
+
+.AboutUsHead {
+    padding: 0.5rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+.contentFont {
+    font-size: 1rem;
+}
+
+.AboutHeading {
+    text-align: center;
+}
+
+.our-vision {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0rem;
+}
+
+.wordCenter {
+    text-align: center;
+}
+
+.our-vision-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-vision img {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 993px) {
+
+    .our-vision {
+        grid-template-columns: 1fr 0fr;
+    }
+
+    .our-vision img {
+        display: none;
+    }
+}
+
+.founder-info-section {
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    position: relative;
+
+}
+
+.founder-info-section .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    border-radius: 0px;
+}
+
+.founder-info-section .card:hover {
+    box-shadow: 0 4px 8px #2e95f7;
+}
+
+
+
+.founder-info-section .card img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+.adminName {
+    text-align: center;
+    font-weight: bold;
+}
+
+.adminPos {
+    font-weight: none;
+    color: rgb(136, 136, 136);
+    margin: 0px;
+    padding: 0px;
+}
+
+.cardContent {
+    padding: 0.5rem;
+}
+
+.contentBtn {
+    border: none;
+    background-color: white;
+    color: rgb(71, 71, 185);
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.cardContent p {
+    /* border: 1px solid red; */
+    margin-bottom: 0px;
+}
+
+.lessContent {
+    height: 95px;
+    overflow: hidden;
+}
+
+.courseName {
+    font-weight: bold;
+}

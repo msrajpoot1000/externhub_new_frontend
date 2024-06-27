@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    background-color: black;
+    padding: 2rem;
+}
+
+.footsection1 {
+    display: wrap;
+}
+
+
+.sectionn1,
+.section2,
+.section3 {
+    flex-direction: column;
+    text-align: left;
+    padding:0.5rem 0rem;
+}
+
+.footer button {
+    border: none;
+    background-color: black;
+    color: #5858cf;
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.footerHead{
+        background-color: black;
+}
+h4{
+    padding:0px;
+}
+
+.footer-info{
+    margin-top:1rem;
+}

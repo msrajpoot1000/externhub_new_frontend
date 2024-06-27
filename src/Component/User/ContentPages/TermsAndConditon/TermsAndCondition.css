@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.termsTitle {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem 0rem;
+    ;
+}
+
+.termsHead {
+    font-family: 'Poppins', sans-serif;
+}

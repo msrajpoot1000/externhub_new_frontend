@@ -1,0 +1,22 @@
+# Ignore compiled binaries and build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore dependencies and package managers
+node_modules/
+vendor/

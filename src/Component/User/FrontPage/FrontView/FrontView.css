@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.topHead {
+    background-image: url("./back8.png");
+    background-color: black;
+    background-size: 100% 100%;
+}
+
+.frontViewHead {
+    color: #2e95f7;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.frontViewHeadInside {
+    width: 40%;
+}
+
+.start {
+    padding: 1rem 0rem;
+    width: 40%;
+
+}
+
+.unlock {
+    width: 40%;
+}
+
+@media (max-width: 880px) {
+    .start {
+        width: 60%;
+    }
+
+    .unlock {
+        width: 60%;
+    }
+}
+
+@media (max-width: 770px) {
+    .start {
+        width: 70%;
+    }
+
+    .unlock {
+        width: 70%;
+    }
+}
+
+@media (max-width: 460px) {
+    .start {
+        width: 90%;
+    }
+
+    .unlock {
+        width: 90%;
+    }
+}
+
+@media (max-width: 350px) {
+    .start {
+        width: 100%;
+    }
+
+    .unlock {
+        width: 100%;
+    }
+}
+
+
+
+.getStartedHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding:1rem 0rem; */
+}
+
+.getStarted {
+    padding: 0.3rem 0.8rem;
+    margin: 1.5rem 0rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #2e95f7;
+    background-color: #eaecf2;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 20px 5px #2e95f7;
+    border: none;
+    border: 2px solid white
+}
+
+.getStarted:hover {
+    background-color: #2e95f7;
+    color: white;
+}
+
+/* .frontViewHead .unlock, h3, h6 {
+    color: white
+} */
+
+.frontViewHead>.unlock,
+.frontViewHead>h3,
+.frontViewHead>h6 {
+    color: white;
+}

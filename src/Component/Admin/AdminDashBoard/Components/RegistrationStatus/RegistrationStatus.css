@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.RegHead {
+    margin: 0.5rem;
+
+    background-color: white;
+    position: relative;
+}
+
+
+.processingSectionRegRes {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+
+}
+
+
+
+.RegHead .contentHead {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.RegHead .items {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+    /* padding: 0rem 0.5rem; */
+    padding: 0.5rem;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.RegHead .items .item {
+    padding: 0px !important;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.RegHead .itemBtnHead {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem 0rem;
+}
+
+.RegHead .itemBtnHead .sendMail, .invalidUser {
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 1rem;
+    font-weight: bold;
+}
+
+.invalidUser {}
