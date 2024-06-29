@@ -1,10 +1,11 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./FrontView.css";
-import Back from "./back12.png";
+import Back from "./images/back12.png";
 import "../../Navbar/NavbarTop.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import Logo from "../../Navbar/logo_ExternHu3.png";
+import Navbar2 from "./Navbar2";
 function FrontView() {
   const navigate = useNavigate();
   const divRef = useRef(null);
@@ -27,6 +28,10 @@ function FrontView() {
 
   return (
     <div className="topHead">
+      <div>
+        <Navbar2 />
+      </div>
+
       <div className="frontViewHead">
         <div className=" container">
           <div className="navbarTop">

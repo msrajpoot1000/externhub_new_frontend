@@ -7,6 +7,7 @@ function NavbarTop() {
   const navigate = useNavigate();
   return (
     <div className="navbarTop ">
+      <div>manish</div>
       <Navbar
         className="navbarHead container"
         style={{ backgroundColor: "transparent" }}
@@ -43,6 +44,7 @@ function NavbarTop() {
             >
               Contact Us
             </Nav.Link>
+            <Nav.Link>Services</Nav.Link>
             <Nav.Link
               className="collapseItem"
               onClick={() => navigate("/verification")}
