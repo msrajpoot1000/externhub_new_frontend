@@ -14,6 +14,7 @@ import AdminLogin from "./Component/Admin/Login/Login";
 import AdminDashBoard from "./Component/Admin/AdminDashBoard/AdminDashBoard";
 import InvalidPage from "./InvalidPage";
 import { UserContext } from "./UserContext";
+// import "@fortawesome/fontawesome-free/css/all.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {

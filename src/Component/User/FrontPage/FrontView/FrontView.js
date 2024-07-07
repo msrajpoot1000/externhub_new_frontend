@@ -28,9 +28,7 @@ function FrontView() {
 
   return (
     <div className="topHead">
-      <div>
-        <Navbar2 />
-      </div>
+      <div>{/* <Navbar2 /> */}</div>
 
       <div className="frontViewHead">
         <div className=" container">
@@ -84,7 +82,7 @@ function FrontView() {
               </Navbar.Collapse>
             </Navbar>
           </div>
-          <div className="frontViewHead " ref={divRef}>
+          {/* <div className="frontViewHead " ref={divRef}>
             <h1 data-aos="fade-up" className="unlock">
               Unlock Your Future With ExternHub{" "}
             </h1>
@@ -100,12 +98,9 @@ function FrontView() {
                 GET STARTED
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      {/* <div className="imgHead">
-        <img src={Back} />
-      </div> */}
     </div>
   );
 }

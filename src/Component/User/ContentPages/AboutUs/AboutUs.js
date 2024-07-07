@@ -136,7 +136,7 @@ function AboutUs() {
                 </button>
               </div>
             </div>
-            <div className="card">
+            {/* <div className="card">
               <img src={Rajat} alt="Admin Img" />
               <div className="cardContent">
                 <h4 className="adminName">Rajat Sharma</h4>
@@ -153,7 +153,7 @@ function AboutUs() {
                   {rajatContent ? "See Less" : "See More"}
                 </button>
               </div>
-            </div>
+            </div> */}
           </section>
         </div>
       </div>

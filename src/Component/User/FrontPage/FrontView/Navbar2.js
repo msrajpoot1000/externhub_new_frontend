@@ -8,32 +8,29 @@ const Navbar = () => {
     <div className="navbar2">
       <nav className="navbar">
         <div className="container">
-          <div className="navbar-brand">BrandName</div>
+          <div className="navbar-brand">ExternHub Solutions</div>
           <ul className={isMobile ? "navbar-links active" : "navbar-links"}>
             <li className="navbar-item">
-              <a href="#">Home</a>
+              <button href="#">Home</button>
             </li>
             <li className="navbar-item">
-              <a href="#">About</a>
+              <button href="#">About</button>
             </li>
             <li className="navbar-item dropdown">
-              <a href="#" className="dropdown-toggle">
+              <button href="#" className="dropdown-toggle">
                 Services
-              </a>
+              </button>
               <ul className="dropdown-menu">
                 <li>
-                  <a href="#">Service 1</a>
+                  <button href="#">Internship</button>
                 </li>
                 <li>
-                  <a href="#">Service 2</a>
-                </li>
-                <li>
-                  <a href="#">Service 3</a>
+                  <button href="#">Development Services</button>
                 </li>
               </ul>
             </li>
             <li className="navbar-item">
-              <a href="#">Contact</a>
+              <button href="#">Contact</button>
             </li>
           </ul>
           <div className="navbar-toggle" onClick={() => setIsMobile(!isMobile)}>

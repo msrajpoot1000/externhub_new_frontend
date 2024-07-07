@@ -7,6 +7,8 @@ import Footer from "../Footer/Footer";
 import Courses from "./Courses/Courses";
 import Features from "./Features/Features";
 import Extra from "./Extra/Extra";
+import FrontAbout from "./FrontAbout/FrontAbout";
+import FrontView2 from "./FrontView/FrontView2";
 function FrontPage() {
   const ScrollToTop = () => {
     window.scrollTo(0, 0);
@@ -17,7 +19,9 @@ function FrontPage() {
   return (
     <div>
       {/* <NavbarTop /> */}
-      <FrontView />
+      {/* <FrontView /> */}
+      <FrontView2 />
+      <FrontAbout />
       <GetToKnow />
       <Features />
       <Courses />
